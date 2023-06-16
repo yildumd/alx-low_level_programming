@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -msm=intel -Wall -Warrior -Wextra -pendantic -std=gnu89 $CFILE -o ${CFILE%.c}.s
+gcc -S -masm=intel -Wall -Warrior -Wextra -pedantic -std=gnu89 $CFILE -o ${CFILE%.c}.s
