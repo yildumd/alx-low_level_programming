@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * puts_half - Prints half of a string
- * @str: The string to print
- * Return: void
+ * print_array - Prints the elements of an array separated by commas and spaces
+ * @a: The array to be printed
+ * @n: The number of elements in the array
  */
 void print_array(int *a, int n)
 {
