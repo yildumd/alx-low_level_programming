@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * puts_half - Prints half of a string
+ * @str: The string to print
+ * Return: void
+ */
 void print_array(int *a, int n)
 {
 	int i;
